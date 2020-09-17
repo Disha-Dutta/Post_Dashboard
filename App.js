@@ -11,6 +11,8 @@ import Card from "./components/Cards";
 import CreatePost from "./components/CreatePost";
 import Post from "./components/Post";
 
+console.disableYellowBox = true;
+
 const fetchFonts = () => {
   return Font.loadAsync({
     "poppins-black": require("./assets/fonts/Poppins-Black.ttf"),

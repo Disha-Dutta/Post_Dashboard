@@ -1,8 +1,6 @@
 import React from "react";
-import { StyleSheet, Dimensions, View, Text, Image } from "react-native";
+import { StyleSheet, View, Text, Image } from "react-native";
 import Icon from "../Icon";
-
-const { width, height } = Dimensions.get("window");
 
 export default function PostCard({ item }) {
   return (

@@ -27,7 +27,6 @@ export default function StatisticsCard({ item, backgroundColor }) {
   );
 }
 
-const spacing = 4;
 const styles = StyleSheet.create({
   card: {
     marginVertical: 4,
